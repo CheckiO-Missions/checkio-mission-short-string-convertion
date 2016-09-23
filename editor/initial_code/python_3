@@ -12,5 +12,5 @@ if __name__ == "__main__":
     assert steps_to_convert('line1', '1enil') == 4, "everything is opposite"
     assert steps_to_convert('', '') == 0, "two empty"
     assert steps_to_convert('l', '') == 1, "one side"
-    assert steps_to_convert('', 'l') == 0, "another side"
+    assert steps_to_convert('', 'l') == 1, "another side"
     print("You are good to go!")
